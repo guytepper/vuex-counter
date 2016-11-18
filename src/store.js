@@ -1,9 +1,9 @@
-import Vue from 'Vue';
-import Vuex from 'Vuex';
+import Vue from 'Vue'
+import Vuex from 'Vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
-const state = new Vuex.Store({
+export default new Vuex.Store({
   state: {
     count: 1
   },
@@ -11,6 +11,4 @@ const state = new Vuex.Store({
     increment: state => state.count++,
     decrement: state => state.count--
   }
-})
-
-export default state;
+});
