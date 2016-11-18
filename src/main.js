@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import Vuex from 'Vuex'
 import App from './App.vue'
 import store from './store'
 
