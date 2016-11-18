@@ -11,17 +11,18 @@
 <script>
 export default {
   name: 'counter',
-  data () {
-    return {
-      count: 0
+  computed: {
+    count () {
+	    return this.$store.state.count
     }
   },
   methods: {
-    increment: function() {this.count++},
-    decrement: function() {this.count--},
+    increment() {
+      this.$store.commit('increment')
+    },
+    decrement() {
+      this.$store.commit('decrement')
+    }
   }
 }
 </script>
-
-<style lang="css">
-</style>
