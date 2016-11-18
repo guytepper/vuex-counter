@@ -1,6 +1,6 @@
 # vuex-counter
 
-> Vuex counter implementation
+A simple counter example using Vue + Vuex.
 
 ## Build Setup
 
