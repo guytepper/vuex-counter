@@ -13,7 +13,7 @@ export default {
   name: 'counter',
   computed: {
     count () {
-	    return this.$store.state.count
+      return this.$store.state.count
     }
   },
   methods: {
